@@ -19,7 +19,7 @@ export default function Layout({
     };
     return (
         <main>
-            <header className="flex p-2 top-0 sticky justify-between items-center before:bg-slate-500 before:absolute before:h-full before:w-full before:top-0 before:left-0 before:z-[-1] before:opacity-5">
+            <header className="flex p-2 top-0 sticky justify-between items-center before:bg-slate-500 before:absolute before:h-full before:w-full before:top-0 before:left-0 before:z-[-1] before:opacity-5 max-sm:static">
                 <div className="pl-10 px-1 py-3 invert max-md:fixed top-3 left-3 max-sm:pl-6">
                     <Link href={"/"}><Image
                         src={"https://www.cristianoronaldo.com/assets/logos/cr7.svg"}
