@@ -33,7 +33,7 @@ export default function Layout({
                     <div className='line h-0.5 w-6 my-1 bg-black'></div>
                     <div className='line h-0.5 w-6 my-1 bg-black'></div>
                 </div>
-                <ul className={`flex p-1 pr-11 max-sm:text-xs max-sm:px-2 max-sm:pb-2 ${isMobile ? "flex-col w-auto translate-x-52" : "w-auto max-md:hidden"}`}>
+                <ul className={`flex p-1 pr-11 max-sm:text-xs max-sm:px-2 max-sm:pb-2 ${isMobile ? "flex-col w-auto translate-x-48" : "w-auto max-md:hidden"}`}>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"/"}>Home</Link></li>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"./about"}>About</Link></li>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"./brands"}>Brands</Link></li>

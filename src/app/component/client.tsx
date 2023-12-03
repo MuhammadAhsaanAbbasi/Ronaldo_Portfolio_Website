@@ -7,7 +7,7 @@ import { useState } from 'react';
 export function Hero() {
     return (
         <>
-            <section className="flex flex-col-reverse lg:flex-row px-11 w-full h-[85vh] lg:h-auto lg:min-h-[85vh] py-[11rem, 11rem] mb-12 lg:mb-0 sm:py-28 max-sm:pl-8">
+            <section className="flex flex-col-reverse lg:flex-row px-11 w-full h-[85vh] lg:h-auto lg:min-h-[85vh] py-36 mb-12 lg:mb-0 sm:py-28 max-sm:pl-8">
                 <video src="/images/life goal.mp4" autoPlay loop muted className='absolute top-0 left-0 w-full h-full object-cover z-[-1] opacity-50'></video>
                 <div className='py-2 animate-wiggle'>
                     <h1 className='text-3xl py-2 font-bold font-["Baloo_Bhai"]'>Hello I'm</h1>
