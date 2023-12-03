@@ -33,7 +33,7 @@ export function Hero() {
     )
 }
 
-type ImageOverlayProps = {
+interface ImageOverlayProps {
     setIsMobile: Function;
     isMobile: boolean;
     imageUrl: string;
@@ -63,7 +63,7 @@ export function Brand({ imageUrl, Postlink, setIsMobile, isMobile }:ImageOverlay
     )
 }
 
-type PartnerOverlayProps = {
+interface PartnerOverlayProps {
     imageUrl: string;
     Postlink: string;
     fill?:string;
