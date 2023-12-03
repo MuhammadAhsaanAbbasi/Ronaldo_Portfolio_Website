@@ -1,4 +1,3 @@
-
 import Layout from './component/layout'
 import {Hero, Brands, Partners} from '../app/component/client';
 import { Aboutme, Career} from './component/server';
