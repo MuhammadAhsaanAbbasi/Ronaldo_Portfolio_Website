@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet"/>
       <link rel="icon" href="/images/vercel.ico" type="images/x-icon" />
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet"/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
