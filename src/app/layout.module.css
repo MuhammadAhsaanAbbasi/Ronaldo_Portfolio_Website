@@ -1,0 +1,166 @@
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation::before {
+    content: "";
+    background-color: rgb(150, 150, 150); /*Ensure it's explicitly transparent*/
+    /* position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.05;
+} */ 
+
+/* .navbaritems {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar {
+    display: flex;
+    padding: 5px;
+    padding-right: 44px;
+}
+
+.item {
+    padding: 1rem;
+    margin: 3px 0px;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+} */
+
+/* .logo {
+    padding: 4px 10px;
+    padding-left: 40px;
+    margin: 0px;
+    filter: invert(100%);
+} */
+
+/* .home {
+    width: 100%;
+    height: 85vh; /* Or adjust to your desired height */
+    /* padding: 150px 40px; */
+    /* display: flex; If you want to use flex properties */
+    /* justify-content: center; /* If you want to center content vertically */
+    /* align-items: center; If you want to center content horizontally */ 
+/* } */ 
+
+/* .imagetext h1{
+    font-size: 40px;
+}
+.imagetext p{
+    font-size: 30px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, #e63939,#f3ec78);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent
+} */
+/* .backgroundvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+/* .link {
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(29,34,55);
+    color: white;
+    text-decoration: underline;
+    width: 165px;
+} */
+
+.about {
+    background-color: rgb(234,246,251);
+    margin: 3rem 0rem;
+    margin-bottom: 0;
+}
+.heading {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.para {
+    width: 55vw;
+    height: 55vh;
+    padding: 44px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+    width: 60vw;
+    height: 60vh;
+    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.brand {
+    width: 45vw;
+    height: 45vh;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+.partner {
+    width: 20vw;
+    height: 20vh;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: contain;
+    filter: invert(100%);
+}
+
+/* .footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+} */
