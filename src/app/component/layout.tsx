@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
-
 export default function Layout({
     children,
 }: {

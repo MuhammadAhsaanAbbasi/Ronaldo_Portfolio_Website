@@ -1,6 +1,6 @@
 
 import Layout from './component/layout'
-import {Hero, Brands, Partners} from './component/client';
+import {Hero, Brands, Partners} from '../app/component/client';
 import { Aboutme, Career} from './component/server';
 
 export default function Home() {
