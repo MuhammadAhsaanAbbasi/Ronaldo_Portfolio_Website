@@ -20,7 +20,7 @@ export default function Layout({
     return (
         <main>
             <header className="flex p-2 top-0 sticky justify-between items-center before:bg-slate-500 before:absolute before:h-full before:w-full before:top-0 before:left-0 before:z-[-1] before:opacity-5">
-                <div className="pl-10 px-1 py-3 invert max-md:fixed top-3 left-3 max-sm:pl-7">
+                <div className="pl-10 px-1 py-3 invert max-md:fixed top-3 left-3 max-sm:pl-6">
                     <Link href={"/"}><Image
                         src={"https://www.cristianoronaldo.com/assets/logos/cr7.svg"}
                         height={150}
@@ -33,7 +33,7 @@ export default function Layout({
                     <div className='line h-0.5 w-6 my-1 bg-black'></div>
                     <div className='line h-0.5 w-6 my-1 bg-black'></div>
                 </div>
-                <ul className={`flex p-1 pr-11 max-sm:text-xs max-sm:px-2 max-sm:pb-2 ${isMobile ? "flex-col w-auto translate-x-48" : "w-auto max-md:hidden"}`}>
+                <ul className={`flex p-1 pr-11 max-sm:text-xs max-sm:px-2 max-sm:pb-2 ${isMobile ? "flex-col w-auto translate-x-[200px]":"w-aut0 max-md:hidden"}`}>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"/"}>Home</Link></li>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"./about"}>About</Link></li>
                     <li className="p-4 my-1  transition-all duration-500 hover hover:bg-black hover:cursor-pointer hover:text-white hover:rounded-2xl font-['Baloo_Bhai'] text-lg"><Link href={"./brands"}>Brands</Link></li>
